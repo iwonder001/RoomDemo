@@ -18,6 +18,13 @@ The RoomCarpet class should have a method that returns the total cost of the car
 		carpetCost = cost * size.getArea();
 		return carpetCost;
 	}
+
+
+	@Override
+	public String toString() {
+		return "RoomCarpet size=" + size + ", carpetCost=" + carpetCost + " ";
+	}
+	
 	
 	
 }
